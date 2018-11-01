@@ -4,10 +4,14 @@ html {
 
 body {
     height: 100%;
-    
+    color:white;
+    background:#eea29a;
+    font-family: 'Space Mono', monospace;
 }
 a {
     text-decoration: none;
+    color: white;
+    font-size: 25px;
 }
 
 .main {
@@ -16,4 +20,28 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.header{
+    display:flex;
+    justify-content:center;
+    font-size: 50px;
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+}
+.footer{
+    display:flex;
+    justify-content:space-around;
+}
+.container{
+    display: flex;
+}
+.column1{
+    width: 100%;
+    height: 700px;
+    background-image:url(http://bts.ibighit.com/loveyourself_tear/img/photo/y_ver/1_y_bts.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    
 }
