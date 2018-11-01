@@ -11,7 +11,7 @@ body {
 a {
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .main {
@@ -21,14 +21,10 @@ a {
     width: 30px;
     margin: 15px;
 }
-.header{
-    display:flex;
-    justify-content:center;
-    font-size: 50px;
-}
 .navbar{
     display:flex;
     justify-content:space-around;
+   
 }
 .footer{
     display:flex;
@@ -43,5 +39,19 @@ a {
     background-image:url(http://bts.ibighit.com/loveyourself_tear/img/photo/y_ver/1_y_bts.jpg);
     background-repeat: no-repeat;
     background-size: 100%; 
-    
+}
+.gallery{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.thumbnail-image{
+  width:100%;
+}
+.thumbnail{
+    width:800px;
+}
+.aboutMain{
+    font-size: 18px;
 }
