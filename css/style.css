@@ -4,10 +4,10 @@ html {
 
 body {
     
-    color:#16001E;
-    background:#F7F0F0;
+    color:white;
+    background:black;
     font-family: 'Space Mono', monospace;
-    background-image:url(http://bts.ibighit.com/wings/img/mainphoto/1.jpg);
+    background-image:url(https://www.billboard.com/files/media/iwm9ks1lc-mx83ej-nx-dje3-jdxm-bts-lal-72j-kdi3-2018-bb5-billboard-su7-1500.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -19,7 +19,7 @@ body {
 }
 a {
     text-decoration: none;
-    color:#561B3D ;
+    color:white ;
     font-size: 35px;
 }
 
@@ -40,7 +40,7 @@ a {
     padding-top: 500px;
     display:flex;
     justify-content:space-around;
-    color:#561B3D;
+    color:white;
 }
 .container{
     display: flex;
