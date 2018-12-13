@@ -4,7 +4,6 @@ html {
 
 body {
     
-    color:white;
     background:black;
     font-family: 'Space Mono', monospace;
     background-image:url(https://www.billboard.com/files/media/iwm9ks1lc-mx83ej-nx-dje3-jdxm-bts-lal-72j-kdi3-2018-bb5-billboard-su7-1500.jpg);
@@ -13,14 +12,25 @@ body {
     
 }
 #body2{
-    background-image: url(&quot;img/background/wings-background-1.jpg);"
-    background-repeat: repeat;
+    background: white;
+    color: black;
 
+}
+#body3{
+    background: black;
+    color: white;
+    
 }
 a {
     text-decoration: none;
-    color:white ;
+    color:white;
     font-size: 35px;
+}
+#about{
+    text-decoration: none;
+    color:black;
+    font-size: 35px;
+    
 }
 
 .main {
@@ -34,7 +44,14 @@ a {
     padding-top: 20px;
     display:flex;
     justify-content:space-around;
+    color:white;
    
+}
+.navbar2{
+    padding-top: 20px;
+    display:flex;
+    justify-content:space-around;
+    color:black;
 }
 .footer{
     padding-top: 500px;
